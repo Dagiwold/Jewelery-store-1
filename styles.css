@@ -1,0 +1,415 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+/*header*/
+
+header {
+  background-color: #070e16;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 60px;
+  margin-left:50px;
+}
+
+nav ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ff0000;
+}
+
+/*hero*/
+
+.hero {
+  background-image: url("home.jpeg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  color: #ffffff;
+  
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+  text-align: center;
+  
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.hero-content p {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  background-color:rgb(199, 137, 21);
+  transition: 0.5s ease;;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: transparent;
+  border-color:  rgb(199, 137, 21);
+  color:  rgb(199, 137, 21);
+  transition: 0.5s ease;
+}
+
+/*about*/
+
+.about {
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.about-content {
+  flex: 1;
+  max-width: 600px;
+  padding-right: 50px;
+  color: #fff;
+  margin-left: 3%;
+  justify-content: center;
+  text-align: justify;
+  
+  
+}
+
+.about h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.about h2:hover{
+  background-color: transparent;
+  border-color:  rgb(199, 137, 21);
+  color:  rgb(199, 137, 21);
+  transition: 0.5s ease;
+}
+
+.about p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color:white;
+}
+
+.about p:hover{
+  background-color: transparent;
+  border-color:  rgb(199, 137, 21);
+  color:  rgb(199, 137, 21);
+  transition: 0.5s ease;
+}
+
+.about-image {
+  flex-shrink: 0;
+  width: 60%;
+  margin-right: 5%;
+}
+
+.about-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.dark-theme {
+  background-color: #070e16;
+}
+
+
+/* reservations*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  padding: 10px;
+  background-color: #070e16;
+}
+
+/* Section containing reservation form and product information */
+.reservations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 50px;
+  color: #fff;
+}
+
+/* Reservation form container */
+.reservation-form {
+  width: 30%;
+  text-align: center;
+}
+
+.reservation-form h2 {
+  margin-bottom: 20px;
+
+}
+/* Styling for form elements */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="time"],
+textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Product information container */
+.reservation-info {
+  display: flex;
+  align-items: center;
+  width: 40%;
+}
+
+/* Product image */
+.item-image img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Product description */
+.item-description {
+  padding-left: 20px;
+}
+
+.item-description h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.item-description p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #fff;
+}
+/* Testimonials Section*/
+
+.testimonials {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+
+.testimonials h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #6230b3;
+}
+
+.testimonial {
+  max-width: 600px;
+  margin: 0 auto 40px;
+  text-align: left;
+}
+
+.testimonial img {
+  display: block;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+}
+
+.testimonial p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: justify;
+}
+
+.testimonial h4 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #6d3131;
+}
+
+
+/* Gallery Section*/
+
+.gallery {
+  padding: 80px 0;
+  text-align: center;
+  background-color: #070e16;
+}
+
+.gallery h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.image-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+
+/* Contact Section*/
+
+.contact {
+  background-color: #333;
+  padding: 80px 0;
+  text-align: center;
+  color: #fff;
+}
+
+.contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.info-item {
+  margin: 0 20px;
+  text-align: center;
+}
+
+.info-item i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: none;
+}
+
+.contact-form textarea {
+  resize: vertical;
+}
+
+.contact-form button {
+  display: inline-block;
+  background-color: #ff0000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #e60000;
+}
+
+
+/* Footer*/
+
+.footer {
+  background-color: #070e16;
+  padding: 40px 0;
+  color: #fff;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.footer-logo img {
+  max-width: 150px;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.footer-social a {
+  color: #fff;
+  margin: 0 5px;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 14px;
+}
+
